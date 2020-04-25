@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "spek",
+    "module": "spek-runtime",
+    "version": "2.0.11-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.6",
+      "buildId": "ppa5pw6ga5e2hdc55w6f5g2una"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-jvm/2.0.11-rc.1/spek-runtime-jvm-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-jvm",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-jvm/2.0.11-rc.1/spek-runtime-jvm-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-jvm",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "linux-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-native-linux/2.0.11-rc.1/spek-runtime-native-linux-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-native-linux",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "macos-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-native-macos/2.0.11-rc.1/spek-runtime-native-macos-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-native-macos",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-metadata/2.0.11-rc.1/spek-runtime-metadata-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-metadata",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "windows-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-windows/2.0.11-rc.1/spek-runtime-windows-2.0.11-rc.1.module",
+        "group": "spek",
+        "module": "spek-runtime-windows",
+        "version": "2.0.11-rc.1"
+      }
+    }
+  ]
+}

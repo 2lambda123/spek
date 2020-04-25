@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "spek",
+    "module": "spek-dsl",
+    "version": "2.0.11-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.6",
+      "buildId": "ppa5pw6ga5e2hdc55w6f5g2una"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-js/2.0.11-rc.1/spek-dsl-js-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-js",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-js/2.0.11-rc.1/spek-dsl-js-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-js",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-jvm/2.0.11-rc.1/spek-dsl-jvm-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-jvm",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-jvm/2.0.11-rc.1/spek-dsl-jvm-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-jvm",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "linux-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-native-linux/2.0.11-rc.1/spek-dsl-native-linux-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-native-linux",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "macos-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-native-macos/2.0.11-rc.1/spek-dsl-native-macos-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-native-macos",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-metadata/2.0.11-rc.1/spek-dsl-metadata-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-dsl-metadata",
+        "version": "2.0.11-rc.1"
+      }
+    },
+    {
+      "name": "windows-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../spek-dsl-windows/2.0.11-rc.1/spek-dsl-windows-2.0.11-rc.1.module",
+        "group": "spek",
+        "module": "spek-dsl-windows",
+        "version": "2.0.11-rc.1"
+      }
+    }
+  ]
+}

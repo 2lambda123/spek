@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "url": "../../spek-runtime/2.0.11-rc.1/spek-runtime-2.0.11-rc.1.module",
+    "group": "spek",
+    "module": "spek-runtime",
+    "version": "2.0.11-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.6",
+      "buildId": "ppa5pw6ga5e2hdc55w6f5g2una"
+    }
+  },
+  "variants": [
+    {
+      "name": "macos-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "spek",
+          "module": "spek-dsl",
+          "version": {
+            "requires": "2.0.11-rc.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.61"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-common",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-native",
+          "version": {
+            "requires": "1.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spek-runtime.klib",
+          "url": "spek-runtime-native-macos-2.0.11-rc.1.klib",
+          "size": 142278,
+          "sha1": "20b3d82a5fb0eaf6b1ae47e9ae9c57c3caf078eb",
+          "md5": "8a42c210598faf5e3b92b1760922ab20"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../spek-runtime-metadata/2.0.11-rc.1/spek-runtime-metadata-2.0.11-rc.1.module",
+        "group": "org.spekframework.spek2",
+        "module": "spek-runtime-metadata",
+        "version": "2.0.11-rc.1"
+      }
+    }
+  ]
+}

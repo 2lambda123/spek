@@ -47,7 +47,8 @@ class LetValueGetter<T>(baseFactory: () -> T, val root: Root, val name: String) 
         }
 
         if (initializedForTest) {
-            return valueForTest!!
+            @Suppress("UNCHECKED_CAST")
+            return valueForTest as T
         }
 
         var searchPath = currentPath

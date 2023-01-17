@@ -69,6 +69,18 @@ object LetValueSpec : Spek({
             expect("base") { str }
         }
 
+        /**
+         * support calling a value for the first time from an `afterEachTest`.
+         *
+         * testCoroutineContext can't be used from beforeEachGroup or afterEachGroup
+        java.lang.IllegalStateException: testCoroutineContext can't be used from beforeEachGroup or afterEachGroup
+        at org.spekframework.spek2.runtime.lifecycle.LetValueGetter.getValue(LetValueCreator.kt:42)
+        at baaahs.PubSubSpec$1$1$2.invoke(PubSubSpec.kt:32)
+        at baaahs.PubSubSpec$1$1$2.invoke(PubSubSpec.kt:18)
+        at org.spekframework.spek2.runtime.scope.Fixtures.invokeAfterTestFixtures(fixtures.kt:47)
+
+         */
+
         context("with nullable values") {
             val nullable by value { null }
 

@@ -26,7 +26,7 @@ kotlin {
         }
     }
 
-    js {
+    js(BOTH) {
         mavenPublication {
             groupId = "org.spekframework.spek2"
             artifactId = "spek-dsl-js"

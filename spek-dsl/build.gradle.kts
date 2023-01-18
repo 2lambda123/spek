@@ -37,38 +37,38 @@ kotlin {
         }
     }
 
-    linuxX64("linux") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-dsl-native-linux"
-            pom {
-                name.set("Spek DSL Native Linux")
-                description.set("Kotlin Native linux module for spek-dsl")
-            }
-        }
-    }
-
-    macosX64("macos") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-dsl-native-macos"
-            pom {
-                name.set("Spek DSL Native MacOS")
-                description.set("Kotlin Native macos module for spek-dsl")
-            }
-        }
-    }
-
-    mingwX64("windows") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-dsl-native-windows"
-            pom {
-                name.set("Spek DSL Native Windows")
-                description.set("Kotlin Native windows module for spek-dsl")
-            }
-        }
-    }
+//    linuxX64("linux") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-dsl-native-linux"
+//            pom {
+//                name.set("Spek DSL Native Linux")
+//                description.set("Kotlin Native linux module for spek-dsl")
+//            }
+//        }
+//    }
+//
+//    macosX64("macos") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-dsl-native-macos"
+//            pom {
+//                name.set("Spek DSL Native MacOS")
+//                description.set("Kotlin Native macos module for spek-dsl")
+//            }
+//        }
+//    }
+//
+//    mingwX64("windows") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-dsl-native-windows"
+//            pom {
+//                name.set("Spek DSL Native Windows")
+//                description.set("Kotlin Native windows module for spek-dsl")
+//            }
+//        }
+//    }
 
     sourceSets {
         val commonMain by getting {

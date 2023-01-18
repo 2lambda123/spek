@@ -1,6 +1,6 @@
 plugins {
     `maven-publish`
-    signing
+//    signing
 }
 
 var bintrayRepo = "spek-dev"
@@ -22,16 +22,16 @@ tasks.withType<AbstractPublishToMaven>()
         }
     }
 
-signing {
-    val signingKey = propOrEnv("OSSRH_SIGNING_KEY")
-    val signingPassword = propOrEnv("OSSRH_SIGNING_PASSWORD")
-    useInMemoryPgpKeys(signingKey, signingPassword)
-    publishing.publications.all {
-        if (artifacts.contains(name)) {
-            sign(this)
-        }
-    }
-}
+//signing {
+//    val signingKey = propOrEnv("OSSRH_SIGNING_KEY")
+//    val signingPassword = propOrEnv("OSSRH_SIGNING_PASSWORD")
+//    useInMemoryPgpKeys(signingKey, signingPassword)
+//    publishing.publications.all {
+//        if (artifacts.contains(name)) {
+//            sign(this)
+//        }
+//    }
+//}
 
 publishing {
     repositories {

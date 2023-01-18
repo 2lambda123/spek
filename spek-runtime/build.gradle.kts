@@ -27,38 +27,38 @@ kotlin {
 
     }
 
-    linuxX64("linux") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-runtime-native-linux"
-            pom {
-                name.set("Spek Runtime Native Linux")
-                description.set("Kotlin Native linux module for spek-runtime")
-            }
-        }
-    }
+//    linuxX64("linux") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-runtime-native-linux"
+//            pom {
+//                name.set("Spek Runtime Native Linux")
+//                description.set("Kotlin Native linux module for spek-runtime")
+//            }
+//        }
+//    }
 
-    macosX64("macos") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-runtime-native-macos"
-            pom {
-                name.set("Spek Runtime Native MacOS")
-                description.set("Kotlin Native macos module for spek-runtime")
-            }
-        }
-    }
+//    macosX64("macos") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-runtime-native-macos"
+//            pom {
+//                name.set("Spek Runtime Native MacOS")
+//                description.set("Kotlin Native macos module for spek-runtime")
+//            }
+//        }
+//    }
 
-    mingwX64("windows") {
-        mavenPublication {
-            groupId = "org.spekframework.spek2"
-            artifactId = "spek-runtime-native-windows"
-            pom {
-                name.set("Spek Runtime Native Windows")
-                description.set("Kotlin Native windows module for spek-runtime")
-            }
-        }
-    }
+//    mingwX64("windows") {
+//        mavenPublication {
+//            groupId = "org.spekframework.spek2"
+//            artifactId = "spek-runtime-native-windows"
+//            pom {
+//                name.set("Spek Runtime Native Windows")
+//                description.set("Kotlin Native windows module for spek-runtime")
+//            }
+//        }
+//    }
 
     sourceSets {
         val commonMain by getting {
@@ -84,23 +84,23 @@ kotlin {
             dependsOn(commonMain)
         }
 
-        linuxX64("linux") {
-            compilations["main"].defaultSourceSet {
-                dependsOn(nativeMain)
-            }
-        }
-
-        macosX64("macos") {
-            compilations["main"].defaultSourceSet {
-                dependsOn(nativeMain)
-            }
-        }
-
-        mingwX64("windows") {
-            compilations["main"].defaultSourceSet {
-                dependsOn(nativeMain)
-            }
-        }
+//        linuxX64("linux") {
+//            compilations["main"].defaultSourceSet {
+//                dependsOn(nativeMain)
+//            }
+//        }
+//
+//        macosX64("macos") {
+//            compilations["main"].defaultSourceSet {
+//                dependsOn(nativeMain)
+//            }
+//        }
+//
+//        mingwX64("windows") {
+//            compilations["main"].defaultSourceSet {
+//                dependsOn(nativeMain)
+//            }
+//        }
     }
 }
 

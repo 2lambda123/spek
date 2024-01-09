@@ -1,0 +1,152 @@
+repo_name: 2lambda123/spek
+report_id: 92c73db8fe425a07d2a4824a4eea5782
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:53+00:00'
+requested_by: raniejade
+provider: github
+branch: 1.x
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/documentation/src/lib/highlight/highlight.min.js
+  detection_source: documentation/src/lib/highlight/highlight.min.js
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2016-08-18 13:46:12.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/2lambda123/spek
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/spek
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2018-07-27 10:34:34.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-reflect
+  description: Kotlin Full Reflection Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/junit-platform-engine-test-support/build.gradle
+  detection_source: junit-platform-engine-test-support/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2016-06-24 13:47:53.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/junit-platform-engine-test-support/build.gradle
+  detection_source: junit-platform-engine-test-support/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2016-06-24 13:47:53.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-test
+  description: Kotlin Test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/spek-data-driven-extension/build.gradle
+  detection_source: spek-data-driven-extension/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2017-03-25 11:05:05.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/spek-junit-platform-engine/build.gradle
+  detection_source: spek-junit-platform-engine/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2017-01-22 04:45:37.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/spek-junit-platform-engine/build.gradle
+  detection_source: spek-junit-platform-engine/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2017-01-22 04:45:37.000000000 Z
+- name: org.junit.platform:junit-platform-engine
+  description: Module "junit-platform-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/junit-platform-engine-test-support/build.gradle
+  detection_source: junit-platform-engine-test-support/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2016-06-24 13:47:53.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/junit-platform-engine-test-support/build.gradle
+  detection_source: junit-platform-engine-test-support/build.gradle
+  last_updated_by: Ranie Jade Ramiso
+  last_updated_on: 2016-06-24 13:47:53.000000000 Z
+- name: org.junit.platform:junit-platform-runner
+  description: Module "junit-platform-runner" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/spek/blob/1.x/spek-data-driven-extension/build.gradle
+  detection_source: spek-data-driven-extension/build.gradle
+  last_updated_by: Gunnar Schulze
+  last_updated_on: 2017-08-14 09:16:54.000000000 Z
